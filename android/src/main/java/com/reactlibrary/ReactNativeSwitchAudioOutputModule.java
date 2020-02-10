@@ -1,5 +1,7 @@
 package com.reactlibrary;
 
+import android.media.AudioManager;
+
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
@@ -20,8 +22,18 @@ public class ReactNativeSwitchAudioOutputModule extends ReactContextBaseJavaModu
     }
 
     @ReactMethod
-    public void sampleMethod(String stringArgument, int numberArgument, Callback callback) {
-        // TODO: Implement some actually useful functionality
-        callback.invoke("Received numberArgument: " + numberArgument + " stringArgument: " + stringArgument);
+    public void isSpeakerphoneOn(Callback callback) {
+        AudioManager audioManager = (AudioManager)this.reactContext.getSystemService(this.reactContext.AUDIO_SERVICE);
+        callback.invoke(audioManager.isSpeakerphoneOn());
+    }
+
+    @ReactMethod
+    public void switchAudioOutput(Boolean isSpeakerPhoneOn) {
+        AudioManager audioManager = (AudioManager)this.reactContext.getSystemService(this.reactContext.AUDIO_SERVICE);
+        if (isSpeakerPhoneOn) {
+            audioManager.setSpeakerphoneOn(true);
+        } else {
+            audioManager.setSpeakerphoneOn(false);
+        }
     }
 }
