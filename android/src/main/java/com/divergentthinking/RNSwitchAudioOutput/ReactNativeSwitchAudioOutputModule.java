@@ -1,4 +1,4 @@
-package com.reactlibrary;
+package com.divergentthinking.RNSwitchAudioOutput;
 
 import android.media.AudioManager;
 
