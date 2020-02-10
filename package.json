@@ -2,7 +2,7 @@
   "name": "react-native-react-native-switch-audio-output",
   "title": "React Native React Native Switch Audio Output",
   "version": "1.0.0",
-  "description": "TODO",
+  "description": "The library for switch audio output source in your device for React Native ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
