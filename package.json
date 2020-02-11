@@ -13,7 +13,16 @@
     "baseUrl": "https://github.com/divergent-thinking/react-native-switch-audio-output"
   },
   "keywords": [
-    "react-native, "
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "switch audio component",
+    "coreaudio"
   ],
   "author": {
     "name": "Weerayut Hongsa",

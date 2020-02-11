@@ -24,6 +24,5 @@ RCT_EXPORT_METHOD(switchAudioOutput: (BOOL *)isSpeckerPhoneOn) {
   }
   [session setActive:YES error:&error];
 }
-
 @end
 
