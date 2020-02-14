@@ -1,6 +1,6 @@
 {
-  "name": "react-native-react-native-switch-audio-output",
-  "title": "React Native React Native Switch Audio Output",
+  "name": "react-native-switch-audio-output",
+  "title": "React Native Switch Audio Output",
   "version": "1.0.0",
   "description": "The library for switch audio output source in your device for React Native ",
   "main": "index.js",
@@ -13,7 +13,16 @@
     "baseUrl": "https://github.com/divergent-thinking/react-native-switch-audio-output"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "react native",
+    "mobile",
+    "ios",
+    "android",
+    "switch audio component",
+    "coreaudio"
   ],
   "author": {
     "name": "Weerayut Hongsa",
@@ -27,7 +36,7 @@
     "react-native": ">=0.59.0-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react": "^16.8.3",
-    "react-native": "^0.59.10"
+    "react": "16.9.0",
+    "react-native": "0.61.5"
   }
 }
