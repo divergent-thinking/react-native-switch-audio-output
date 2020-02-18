@@ -12,18 +12,18 @@ The library for switch audio output source in your device for React Native
 
 ## Usage
 ```javascript
-import ReactNativeSwitchAudioOutput from 'react-native-switch-audio-output';
+import RNSwitchAudioOutput from 'react-native-switch-audio-output';
 
 // check the audio source is speaker or not (Android only)
-ReactNativeSwitchAudioOutput.isSpeakerphoneOn(res => {
+RNSwitchAudioOutput.isSpeakerphoneOn(res => {
   console.log(res) // true or false
 });
 
 // switch audio source to speaker or headphone
 
 // enable speaker
-ReactNativeSwitchAudioOutput.switchAudioOutput(true)
+RNSwitchAudioOutput.switchAudioOutput(true)
 
 // disable speaker
-ReactNativeSwitchAudioOutput.switchAudioOutput(false)
+RNSwitchAudioOutput.switchAudioOutput(false)
 ```
