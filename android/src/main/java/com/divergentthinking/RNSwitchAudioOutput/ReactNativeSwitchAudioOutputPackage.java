@@ -16,7 +16,6 @@ public class ReactNativeSwitchAudioOutputPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(new ReactNativeSwitchAudioOutputModule(reactContext));
     }
 
-    @Override
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
