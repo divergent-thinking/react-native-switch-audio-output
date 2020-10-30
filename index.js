@@ -21,10 +21,10 @@ export default class RNSwitchAudioOutput {
 
   static selectAudioOutput = (audioOutput) => {
     switch (audioOutput) {
-      case AUDIO_SPEAKER:
+      case this.AUDIO_SPEAKER:
         ReactNativeSwitchAudioOutput.switchAudioOutput(true);
         break;
-      case AUDIO_HEADPHONE:
+      case this.AUDIO_HEADPHONE:
         ReactNativeSwitchAudioOutput.switchAudioOutput(false);
         break;
       default:
