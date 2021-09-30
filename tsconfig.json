@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "outDir": "./lib",
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "./src/index.ts"
+  ],
+  "exclude": ["./node_modules", "./types"]
+}
