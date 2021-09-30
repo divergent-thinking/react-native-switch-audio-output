@@ -3,9 +3,11 @@
   "title": "React Native Switch Audio Output",
   "version": "1.1.2",
   "description": "The library for switch audio output source in your device for React Native ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "prepare": "npm run tsc"
   },
   "repository": {
     "type": "git",
@@ -36,7 +38,9 @@
     "react-native": ">=0.59.0-rc.0 <1.0.x"
   },
   "devDependencies": {
+    "@types/react-native": "^0.65.2",
     "react": "16.9.0",
-    "react-native": "^0.63.3"
+    "react-native": "^0.63.3",
+    "typescript": "^4.4.3"
   }
 }
