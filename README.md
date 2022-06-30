@@ -1,3 +1,5 @@
+# This project is no longer maintenance and support
+
 # react-native-switch-audio-output
 The library for switch audio output source in your device for React Native
 
